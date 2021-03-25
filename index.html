@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <div class="container-fluid">
+      
+      <a href="#">
+        <img src="./logo-1.PNG" alt="logo" width="250px">
+      </a>
+      
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0" style="font-size: large;">
+          <li class="nav-item">
+            <b><a class="nav-link active me-3 ms-3" aria-current="page" href="#">Sign up</a></b>
+          </li>
+          <li class="nav-item">
+            <b><a class="nav-link" href="#">About us</a></b>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="./happy-delivery.jpg" alt="Customer is happy with delivery">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>What is ASTROFLEX?</h1>
+            <p style="font-size: x-large;">
+              ASTROFLEX is a great way to earn extra money. Simply you will use your own vehicle to deliver our packages and will get paid 
+              per delivery.
+              </p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./delivery-man.jpg" alt="delivery guy">
+
+        <div class="container">
+          <div class="carousel-caption">
+            
+            <h1>Why ASTROFLEX?</h1>
+            <p style="font-size: x-large;">We value your time, and that's why you can choose your schedule and set your own pace.</p>
+            <p style="font-size: x-large;">Earn up to 50 AED per hour!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+       <img src="./cell-phone.png" alt="cell phone" width="140" height="140" class="bd-placeholder-img rounded-circle">
+        <h2><b>Step 1</b></h2>
+        <p style="font-size: large; color: black;">Sign up and creat your account.</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./location-2.png" alt="cell phone" width="140" height="140" class="bd-placeholder-img rounded-circle">
+
+        <h2><b>Step 2</b></h2>
+        <p style="font-size: large; color: black;">choose your prefered locations.</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./wallet.png" alt="cell phone" width="140" height="140" class="bd-placeholder-img rounded-circle">
+
+        <h2><b>Step 3</b></h2>
+        <p style="font-size: large; color: black;">Start your delivery and earn money.</p>
+        
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Give more time to what really matters.</h2>
+     <p class="lead"><b>We know how valuable your time is. With Flex, 
+          you can plan your week by choosing what time do you prefer to work at. 
+          Not only this, but you can also choose the locations that are covenient to you, then get back to living your life.</b></p>
+      </div>
+      
+      <div class="col-md-5">
+        
+        <img src="./family-time.jpg" alt="Enjoy family time"/>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Make quicker progress toward your goals.</h2>
+        <p class="lead"><b>If you’re saving up for something big. Or if you just want to earn some extra money for day-to-day expenses. Or if you’re paying your student loans. Whatever your motive is, get closer to your goals with Flex.
+        </b></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./quicker-progress.jpg" alt="Earn more money">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Share your experince with people you love.</h2>
+        <p class="lead"><b>It's a "Win Win" situation, refer your friends and get exclusive rates. Let others earn more and have the same balanced joyful life that you are having.</b></p>
+      </div>
+      <div class="col-md-5">
+        <img src="./enjoy-time.jpg" alt="Enjoy more time">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+
+  <footer class="hidden-sm hidden-xs bg-dark">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-4 col-md-6 col-sm-12">
+
+          
+          
+          <h3 style="color: white;">ASTROFLEX</h3>
+          <br>
+          <br>
+          <br>
+          
+          <ul class="list-unstyled socila-list" style="display: inline-flex">
+            <li><a href="https://www.daraz.pk/"><img src="https://img.alicdn.com/tfs/TB1VBbrw1bviK0jSZFNXXaApXXa-40-40.png" alt="Pakistan"></a></li>
+            <li><a href="https://www.daraz.com.bd/"><img src="https://img.alicdn.com/tfs/TB1ZLh6xKH2gK0jSZFEXXcqMpXa-40-40.png" alt="Bangladesh"></a></li>
+            <li><a href="https://www.daraz.lk/"><img src="https://img.alicdn.com/tfs/TB1GnX6xQY2gK0jSZFgXXc5OFXa-40-40.png" alt="Srilanka"></a></li>
+            <li><a href="https://www.daraz.com.np/"><img src="https://img.alicdn.com/tfs/TB15E08xHj1gK0jSZFOXXc7GpXa-40-40.png" alt="Nepal"></a></li>
+            <li><a href="https://www.shop.com.mm/"><img src="https://img.alicdn.com/tfs/TB13EF9xKH2gK0jSZJnXXaT1FXa-40-40.png" alt="Myanmar"></a></li>
+          </ul>
+          <div class="copyright">© 2021 <span>ASTROFLEX</span></div>
+          <br>
+        </div>
+  
+  
+        
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          
+          <ul class="list-unstyled three-column">
+            <li><a href="https://www.daraz.com" style="color: burlywood;">About us</a></li>
+            <!-- <li><a href="">Shop on Daraz</a></li> -->
+            <!-- <li><a href="">Contact us</a></li> -->
+            <li><a href="#" style="color: burlywood;">Sign up</a></li>
+            <!-- <li><a href="https://careers.daraz.com/">Work at Daraz</a></li> -->
+          </ul>
+  
+          
+          <p style="color: antiquewhite;">Connect with us</p>
+          <ul class="list-unstyled socila-list-contact" style="display: inline-flex">
+            <li><a href="https://www.facebook.com/darazpk/"><img src="https://img.alicdn.com/tfs/TB1AmR3xKL2gK0jSZPhXXahvXXa-40-40.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/darazpk/?hl=en"><img src="https://img.alicdn.com/tfs/TB1daB6xUT1gK0jSZFhXXaAtVXa-40-40.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/company/daraz/"><img src="https://img.alicdn.com/tfs/TB1v0R3xLb2gK0jSZK9XXaEgFXa-40-40.png" alt=""></a></li>
+            <li><a href="https://www.youtube.com/channel/UC2BZLVEe9yLof1ghc_YI0_A"><img src="https://img.alicdn.com/tfs/TB1wcB4xFP7gK0jSZFjXXc5aXXa-40-40.png" alt=""></a></li>
+            <li><a href="https://twitter.com/darazpk?lang=en"><img src="https://img.alicdn.com/tfs/TB1UtR3xLb2gK0jSZK9XXaEgFXa-40-40.png" alt=""></a></li>
+          </ul>
+        
+
+        </div>
+       
+        
+        <div class="col-lg-4 col-sm-12" style="margin-top: 23px;">
+          <img class="img-thumbnail" src="https://img.alicdn.com/tfs/TB1Os88xHH1gK0jSZFwXXc7aXXa-98-98.png" alt="">
+          <div style="width: 40%;float: left;font-size: 14px;margin-top: 78px;margin-left: 8px; color: antiquewhite;">Happy Shopping</div>
+      <div style="width: 40%;float: left;font-size: 14px;margin-left: 8px;color: #fe722c;">Scan To Download App</div>
+  
+          
+        </div>
+        
+  
+      </div>
+    </div>
+  </footer>
+ 
+
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
+
+
+<!-- 
+<footer class="container">
+  <p class="float-end"><a href="#">Back to top</a></p>
+  <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer> -->

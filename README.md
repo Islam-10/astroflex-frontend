@@ -1,1 +1,2 @@
-# astroflex-frontend
+# astroflex-frontend 
+Astrolabs final project frontend
